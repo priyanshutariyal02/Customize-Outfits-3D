@@ -1,0 +1,47 @@
+3D Cloth customized website [React.js]
+
+Working:
+Home >> customizing cloth >> download
+
+Tools:
+Three.js: 
+A powerful 3D graphic library for rendering and animating 3D models
+React Three Fiber:
+	It is a popular library for creating 3d graphics with 3js in react
+Tailwind CSS:
+	A popular utility first CSS styling framework.
+Framer Motion:
+	For animation in react.
+**learn how to Lode >> create >> customize stunning 3D models, Geometries with various lights as well as understand the 3D world with the CAMERA & POSITION of an object in the space
+
+**learn how to add custom color and file support generate and use images through Dali AI download the resulting t-shirt model image.
+
+Installation:
+	>> npm create vite@latest -- --template react client
+		-create new react application inside react-app (folder)
+	>>npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
+		*three @react-three/fiber:
+		-this is the react renderer for the 3js library
+		*@react-three/drei:
+		-contains useful add-ons for react three fiber
+		*maath:
+		-used for useful math helpers and mostly math that’s ment to be used with 3js.
+		*valtio:
+		-it is a new package that allows us to really easily manage react state
+        *react-color:
+        -it is a color picker
+        *framer-motion:
+        -used for cool animation
+
+
+Setup TailwindCSS
+    >>npm install -D tailwindcss postcss autoprefixer
+    >>npx tailwindcss init -p
+
+	cloudinary: use to save images
+	cors:(stand for course) allow for cross-origin requests 
+	dotenv: for storing environment variables
+	express: to build a single page, multipage, and hybrid web application
+	mongoose: database
+	nodemon
+	openai
