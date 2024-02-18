@@ -1,3 +1,1 @@
-#LINK:
-
-https://customize-outfits-3d.netlify.app/
+Link: https://customize-outfits-3d.netlify.app/
