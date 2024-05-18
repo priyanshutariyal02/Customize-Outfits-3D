@@ -12,7 +12,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
                     accept="image/*" //it will going to accept image property meaning all images
                     onChange={(e) => setFile(e.target.files[0])}
                 />
-                <label htmlFor="fileUpload" className="filepicker-label">
+                <label htmlFor="file-upload" className="filepicker-label">
                     Upload file
                 </label>
                 {/* which file we have uploaded */}
